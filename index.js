@@ -20,3 +20,5 @@ app.use('/books', bookController)
   app.listen(3000, () => {
     console.log('I am alive')
   })
+
+  module.exports = app;
