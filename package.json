@@ -1,0 +1,25 @@
+{
+  "name": "books-api-project",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLDubroff/books-api-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BLDubroff/books-api-projects/issues"
+  },
+  "homepage": "https://github.com/BLDubroff/books-api-projects#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
