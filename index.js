@@ -2,7 +2,9 @@
 const express = require('express')
 
 // CONFIGURATION
+require('dotenv').config()
 const app = express();
+
 
 
 // MIDDLEWARE
@@ -17,8 +19,8 @@ const bookController = require('./controllers/books_controller');
 app.use('/books', bookController)
 
 // LISTEN
-  app.listen(3000, () => {
-    console.log('I am alive')
+  app.listen(process.env.PORT, () => {
+    console.log('I am alive on: ', process.env.PORT)
   })
 
   module.exports = app;
